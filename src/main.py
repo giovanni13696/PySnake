@@ -1,6 +1,7 @@
 import pygame
 import constants
 from board import Board
+from snake import Snake
 
 pygame.init()
 running = True
@@ -21,10 +22,11 @@ while running:
     board = Board(screen)
     tiles = board.draw_board()
     
-    # snake = Snake(screen, tiles)
-    # snake.spawn()
+    snake = Snake(screen, tiles)
+    snake.spawn()
     
     pygame.display.flip()
     clock.tick(60)
     
+
 pygame.quit()
