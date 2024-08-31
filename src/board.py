@@ -1,4 +1,4 @@
-import pygame
+import pygame, random
 import constants
 
 class Board:
@@ -7,6 +7,12 @@ class Board:
         self.width = screen.get_width()
         self.height = screen.get_height()
         self.tiles = []
+        
+        
+    def get_random_tile(self):
+        row = random.choice(self.tiles)
+        return random.choice(row)
+        
     
     def draw_board(self): 
         
