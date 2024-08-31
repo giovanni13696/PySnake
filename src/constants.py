@@ -1,0 +1,18 @@
+####### COLORS #######
+
+FRAME_COLOR = (74, 117, 44, 255)
+BORDER_COLOR = (87, 138, 52, 255)
+ODD_TILE_COLOR = (170, 215, 81, 255)
+EVEN_TILE_COLOR = (162, 209, 73, 255)
+SNAKE_COLOR = (70, 115, 233, 255)
+
+
+####### PADDINGS #######
+
+BORDER_PADDING = 20
+
+
+####### TILES #######
+
+TILE_SIZE = 20
+TILE_SPACING = 1
